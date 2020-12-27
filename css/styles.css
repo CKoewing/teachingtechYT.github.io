@@ -40,6 +40,13 @@ p {
     line-height: 1.5em;
 }
 
+textarea {
+    display: block;
+    margin: 0 20px;
+    width: 90%;
+    font-size: 1.4em;
+}
+
 input {
     font-size: 1.2em;
 }
@@ -97,11 +104,11 @@ a {
 }
 
 li {
-    line-height: 1.5em;
+    line-height: 1.8em;
 }
 
 ol li {
-    margin: 10px; 0;
+    margin: 10px 0;
 }
 
 table {
@@ -119,7 +126,7 @@ th {
 }
 
 td {
-    padding: 20px;
+    padding: 10px;
     border: 1px solid grey;
 }
 
@@ -150,6 +157,12 @@ iframe {
     max-height: 240px;
     max-width: 600px;
     margin: 0 20px 20px 20px;
+}
+
+.startExp {
+    border: 1px solid #00c5ad;
+    margin: 5px 20px 20px;
+    padding: 20px; 
 }
 
 #header {
@@ -186,7 +199,7 @@ iframe {
 #donate {
     vertical-align: middle;
     float: right;
-    padding: 20px;
+    padding: 20px 20px 0 0;
 }
 
 #donate img {
